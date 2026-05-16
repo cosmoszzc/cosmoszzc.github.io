@@ -1,0 +1,280 @@
+﻿/* ===== Framer-style personal site ===== */
+:root {
+  --bg: #fafaf9;
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --line: #e8e6e1;
+  --accent: #2b6eeb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Inter", "SF Pro Display", "Segoe UI", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* ---- Shell ---- */
+.page-shell {
+  width: min(1120px, calc(100% - 64px));
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+/* ---- Eyebrow ---- */
+.eyebrow,
+.card-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+/* ---- Hero ---- */
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  align-items: center;
+  gap: 80px;
+  min-height: calc(100vh - 240px);
+  padding-bottom: 40px;
+}
+
+.intro-copy {
+  max-width: 640px;
+}
+
+h1 {
+  font-size: clamp(3.5rem, 7vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
+}
+
+h2,
+p {
+  margin-top: 0;
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 36px;
+  max-width: 540px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* ---- Buttons ---- */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button.primary {
+  background: var(--ink);
+  color: #fff;
+}
+
+.button.primary:hover {
+  background: #333;
+}
+
+.button.ghost {
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.button.ghost:hover {
+  border-color: #ccc;
+}
+
+/* ---- Portrait panel ---- */
+.portrait-panel {
+  aspect-ratio: 1;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  background:
+    radial-gradient(circle at 30% 25%, rgba(43, 110, 235, 0.08) 0 45%, transparent 46%),
+    radial-gradient(circle at 72% 65%, rgba(240, 90, 40, 0.06) 0 40%, transparent 41%),
+    var(--bg);
+  border: 1px solid var(--line);
+  display: grid;
+  place-items: center;
+}
+
+.portrait-mark {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+
+.signal-grid {
+  display: none;
+}
+
+/* ---- Section grid ---- */
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  padding-top: 40px;
+}
+
+/* ---- Cards ---- */
+.note-card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 32px;
+  background: #fff;
+  min-height: 260px;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.note-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  border-color: #d8d6d0;
+}
+
+.note-card p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
+
+.note-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- Lists ---- */
+.project-list,
+.award-list,
+.edu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.project-list li,
+.award-list li,
+.edu-list li {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.project-list li strong,
+.edu-list li strong {
+  display: block;
+  color: var(--ink);
+  font-weight: 650;
+  font-size: 0.95rem;
+  margin-bottom: 1px;
+}
+
+.project-list li span,
+.edu-list li span {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.edu-list li small {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
+.award-list li::before {
+  content: "—";
+  margin-right: 8px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 860px) {
+  .page-shell {
+    width: min(100% - 40px, 640px);
+    padding: 64px 0;
+  }
+
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    min-height: auto;
+  }
+
+  h1 {
+    font-size: clamp(2.8rem, 11vw, 4.2rem);
+  }
+
+  .portrait-panel {
+    aspect-ratio: auto;
+    min-height: 320px;
+  }
+
+  .portrait-mark {
+    font-size: 3.5rem;
+  }
+
+  .section-grid {
+    grid-template-columns: 1fr;
+  }
+}
