@@ -1,50 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Codex">
   <diagram id="Fig_1_PRISMA_flowchart_ER_alignment" name="Fig 1 PRISMA">
-    <mxGraphModel dx="1338" dy="1216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1227" dy="1115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Arial;fontSize=34;fontStyle=1;fontColor=#202124;" value="Fig. 1. PRISMA-style flow diagram for construction of the review evidence library" vertex="1">
-          <mxGeometry height="55" width="1100" x="250" y="25" as="geometry" />
-        </mxCell>
-        <mxCell id="stage_identification" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6ff;strokeColor=#3b82f6;strokeWidth=2;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#202124;" value="Identification" vertex="1">
-          <mxGeometry height="70" width="210" x="180" y="110" as="geometry" />
+        <mxCell id="stage_identification" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6ff;strokeColor=#3b82f6;strokeWidth=2;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#202124;rotation=-90;" value="Identification" vertex="1">
+          <mxGeometry height="70" width="283.5" x="239.75" y="211.75" as="geometry" />
         </mxCell>
         <mxCell id="records_identified" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#374151;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Records identified&lt;/b&gt;&lt;br&gt;PubMed: n = 566&lt;br&gt;Web of Science: n = 1,724" vertex="1">
-          <mxGeometry height="115" width="360" x="495" y="105" as="geometry" />
+          <mxGeometry height="115" width="360" x="440.5" y="105" as="geometry" />
         </mxCell>
         <mxCell id="total_retrieved" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#94a3b8;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Total retrieved&lt;/b&gt;&lt;br&gt;n = 2,290 records" vertex="1">
-          <mxGeometry height="115" width="360" x="960" y="105" as="geometry" />
+          <mxGeometry height="115" width="360" x="440.5" y="273.5" as="geometry" />
         </mxCell>
         <mxCell id="duplicates_removed" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Duplicates removed&lt;/b&gt;&lt;br&gt;n = 490" vertex="1">
-          <mxGeometry height="88" width="360" x="960" y="292" as="geometry" />
+          <mxGeometry height="88" width="360" x="905.5" y="287" as="geometry" />
         </mxCell>
-        <mxCell id="stage_screening" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6ff;strokeColor=#3b82f6;strokeWidth=2;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#202124;" value="Screening" vertex="1">
-          <mxGeometry height="70" width="210" x="180" y="450" as="geometry" />
+        <mxCell id="stage_screening" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6ff;strokeColor=#3b82f6;strokeWidth=2;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#202124;rotation=-90;" value="Screening" vertex="1">
+          <mxGeometry height="70" width="124" x="319.5" y="463" as="geometry" />
         </mxCell>
         <mxCell id="records_screened" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#374151;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Records screened&lt;/b&gt;&lt;br&gt;n = 1,800 after deduplication" vertex="1">
-          <mxGeometry height="88" width="360" x="960" y="452" as="geometry" />
+          <mxGeometry height="124" width="360" x="440.5" y="436" as="geometry" />
         </mxCell>
         <mxCell id="excluded_relevance" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Excluded at relevance screening&lt;/b&gt;&lt;br&gt;Weak/peripheral relevance: n = 460" vertex="1">
-          <mxGeometry height="95" width="360" x="490" y="445" as="geometry" />
+          <mxGeometry height="95" width="360" x="905.5" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="stage_eligibility" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6ff;strokeColor=#3b82f6;strokeWidth=2;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#202124;" value="Eligibility" vertex="1">
-          <mxGeometry height="70" width="210" x="180" y="610" as="geometry" />
+        <mxCell id="stage_eligibility" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6ff;strokeColor=#3b82f6;strokeWidth=2;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#202124;rotation=-90;" value="Eligibility" vertex="1">
+          <mxGeometry height="70" width="114.58" x="324.22" y="632.5" as="geometry" />
         </mxCell>
         <mxCell id="strong_relevant" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#374151;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Strongly relevant records&lt;/b&gt;&lt;br&gt;n = 1,340" vertex="1">
-          <mxGeometry height="88" width="360" x="960" y="612" as="geometry" />
+          <mxGeometry height="113.78" width="360" x="440.5" y="610.61" as="geometry" />
         </mxCell>
         <mxCell id="not_selected" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Not selected for core library&lt;/b&gt;&lt;br&gt;Outside top-ranked evidence set&lt;br&gt;n = 840" vertex="1">
-          <mxGeometry height="115" width="360" x="490" y="605" as="geometry" />
+          <mxGeometry height="115" width="360" x="905.5" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="stage_included" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6ff;strokeColor=#3b82f6;strokeWidth=2;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#202124;" value="Included" vertex="1">
-          <mxGeometry height="70" width="210" x="180" y="780" as="geometry" />
+        <mxCell id="stage_included" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eef6ff;strokeColor=#3b82f6;strokeWidth=2;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#202124;rotation=-90;" value="Included" vertex="1">
+          <mxGeometry height="70" width="260.87" x="251.07" y="872.82" as="geometry" />
         </mxCell>
         <mxCell id="core_library" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#374151;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Core evidence library&lt;/b&gt;&lt;br&gt;n = 500 records&lt;br&gt;&lt;font style=&quot;font-size:17px&quot; color=&quot;#4b5563&quot;&gt;Ranked by relevance score, year, and abstract completeness&lt;/font&gt;" vertex="1">
-          <mxGeometry height="113" width="480" x="900" y="777" as="geometry" />
+          <mxGeometry height="113" width="358" x="441.5" y="777" as="geometry" />
         </mxCell>
         <mxCell id="pdf_status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#94a3b8;strokeWidth=2;fontFamily=Arial;fontSize=20;fontColor=#202124;spacing=8;" value="&lt;b&gt;Full-text intensive reading status&lt;/b&gt;&lt;br&gt;PDF text available: n = 489; missing PDFs marked pending: n = 11" vertex="1">
-          <mxGeometry height="95" width="615" x="835" y="955" as="geometry" />
+          <mxGeometry height="95" width="364" x="438.5" y="943" as="geometry" />
         </mxCell>
         <mxCell id="e_identified_total" edge="1" parent="1" source="records_identified" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#374151;strokeWidth=3;endArrow=blockThin;endFill=1;" target="total_retrieved" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -52,7 +49,7 @@
         <mxCell id="e_total_dup" edge="1" parent="1" source="total_retrieved" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#374151;strokeWidth=3;endArrow=blockThin;endFill=1;" target="duplicates_removed" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_dup_screen" edge="1" parent="1" source="duplicates_removed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#374151;strokeWidth=3;endArrow=blockThin;endFill=1;" target="records_screened" value="">
+        <mxCell id="e_dup_screen" edge="1" parent="1" source="total_retrieved" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#374151;strokeWidth=3;endArrow=blockThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="records_screened" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_screen_excluded" edge="1" parent="1" source="records_screened" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#374151;strokeWidth=3;endArrow=blockThin;endFill=1;" target="excluded_relevance" value="">
